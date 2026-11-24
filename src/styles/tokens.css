@@ -1,0 +1,65 @@
+/* Cyber-Brutalist Document Mutation Lab Design Tokens */
+:root {
+  /* Core Palette */
+  --bg-void: #08080e;
+  --bg-panel: #101018;
+  --bg-panel-elevated: #16161f;
+  --bg-panel-translucent: rgba(16, 16, 24, 0.84);
+  --bg-overlay: rgba(8, 8, 14, 0.82);
+
+  /* Accents */
+  --neon-lime: #ccff00;
+  --neon-lime-dim: rgba(204, 255, 0, 0.14);
+  --hot-pink: #ff2e88;
+  --hot-pink-dim: rgba(255, 46, 136, 0.14);
+  --electric-cyan: #00e5ff;
+  --electric-cyan-dim: rgba(0, 229, 255, 0.12);
+  --violet: #9b5cff;
+  --violet-dim: rgba(155, 92, 255, 0.18);
+
+  /* Text */
+  --ink-primary: #f2f2f5;
+  --ink-muted: #8b8b9a;
+  --ink-dark: #08080e;
+
+  /* Document Surface */
+  --paper: #ffffff;
+  --paper-ink: #111118;
+
+  /* Borders & Hairlines */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-lime: rgba(204, 255, 0, 0.18);
+  --border-strong: rgba(255, 255, 255, 0.22);
+
+  /* Glows & Shadows */
+  --glow-purple: rgba(155, 92, 255, 0.18);
+  --glow-pink: rgba(255, 46, 136, 0.16);
+  --glow-cyan: rgba(0, 229, 255, 0.1);
+  --grid-line: rgba(255, 255, 255, 0.038);
+  --grid-line-major: rgba(204, 255, 0, 0.06);
+  --scanline-dark: rgba(0, 0, 0, 0.24);
+  --shadow-deep: rgba(0, 0, 0, 0.85);
+  --shadow-lime-glow: rgba(204, 255, 0, 0.48);
+
+  /* Typography */
+  --font-display: 'Anton', Impact, 'Arial Black', sans-serif;
+  --font-body: 'Bricolage Grotesque', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Radii & Clips */
+  --clip-chip: polygon(9px 0, 100% 0, 100% calc(100% - 9px), calc(100% - 9px) 100%, 0 100%, 0 9px);
+  --clip-btn: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+  --clip-card: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 14px 100%, 0 calc(100% - 14px));
+  --clip-page: polygon(0 0, calc(100% - 22px) 0, 100% 22px, 100% 100%, 22px 100%, 0 calc(100% - 22px));
+
+  /* Layout */
+  --topbar-h: 64px;
+  --marquee-h: 24px;
+  --left-rail-w: 214px;
+  --right-panel-w: 326px;
+
+  /* Timing */
+  --ease-snappy: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --dur-fast: 140ms;
+  --dur-med: 220ms;
+}
